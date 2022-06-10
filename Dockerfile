@@ -1,7 +1,7 @@
 # Dockerfile for Domoticz-Google-Assistant
 
 # Install minimal Python 3.
-FROM arm32v6/python:3.7-alpine
+FROM arm32v7/python:3.7-buster
 WORKDIR /usr/src/app
 RUN mkdir -p config
 
